@@ -1,0 +1,46 @@
+
+body {
+  padding-top: 54px;
+  background-color: #887d7d;
+  /* background-color: #525252; */
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.business-header {
+  height: 25vh;
+  min-height: 200px;
+  background: url('.././img/global.png') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.card {
+  height: 100%;
+}
+
+.navbar, .py-5{
+
+  background-color: #b62323;
+}
+
+
+
+.pagination li.active a {
+  background-color: #b62323 !Important;
+  color: white !Important;
+}
+.pagination li.can a {
+  background-color: #da8484 !Important;
+  color: rgb(104, 96, 96) !Important;
+}
+
+.pagination li:hover:not(.active) a {
+  background-color: rgb(197, 147, 147) !Important;}
+
